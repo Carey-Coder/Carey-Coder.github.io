@@ -51,15 +51,15 @@
 
 
 
-<meta name="description">
+<meta name="description" content="一点生活，一点随心，一点故事，一点感悟">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Eric's Blog">
 <meta property="og:url" content="/index.html">
 <meta property="og:site_name" content="Eric's Blog">
-<meta property="og:description">
+<meta property="og:description" content="一点生活，一点随心，一点故事，一点感悟">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Eric's Blog">
-<meta name="twitter:description">
+<meta name="twitter:description" content="一点生活，一点随心，一点故事，一点感悟">
 
 
 
@@ -136,10 +136,30 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-/categories fa-fw"></i> <br />
+            
+            分類
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            關於
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+              <i class="menu-item-icon fa fa-/archives fa-fw"></i> <br />
             
             歸檔
           </a>
@@ -149,7 +169,7 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+              <i class="menu-item-icon fa fa-/tags fa-fw"></i> <br />
             
             標籤
           </a>
@@ -209,8 +229,8 @@
             
               
                 
-                <a class="post-title-link" href="/2015/12/09/hello-world/" itemprop="url">
-                  Hello World
+                <a class="post-title-link" href="/2015/12/10/My-Fist-Blog/" itemprop="url">
+                  My Fist Blog
                 </a>
               
             
@@ -220,19 +240,34 @@
         <div class="post-meta">
           <span class="post-time">
             發表於
-            <time itemprop="dateCreated" datetime="2015-12-09T23:26:34+08:00" content="2015-12-09">
-              2015-12-09
+            <time itemprop="dateCreated" datetime="2015-12-10T00:10:27+08:00" content="2015-12-10">
+              2015-12-10
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp; 分類於
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/生活/" itemprop="url" rel="index">
+                    <span itemprop="name">生活</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/12/09/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/09/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2015/12/10/My-Fist-Blog/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/10/My-Fist-Blog/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -254,15 +289,17 @@
         
           <span itemprop="articleBody">
             
-              <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+              <!-- HTML -->
+<blockquote class="blockquote-center">活在这珍贵的人世间，水波温柔，阳光强烈<br><br>—— 海子</blockquote>
+
+<!-- Built-in tag (Require NexT 0.4.5 or above) -->
+<!-- <blockquote class="blockquote-center"><p>泰戈尔</p>
+</blockquote> –&gt;
+<!-- 别名 -->
+<hr>
+  <div style="text-indent:2em">从新浪博客到网易撸否，换了一个又一个总是感觉缺点什么。在这个现实中，总是想找个一没有人认识我的地方，一个人，静静地写点什么。</div>
+
+<hr>
 
             
           </span>
@@ -319,10 +356,10 @@
 
       <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="/images/default_avatar.jpg" alt="Eric" itemprop="image"/>
+          <img class="site-author-image" src="/uploads/avatar.jpg" alt="Eric" itemprop="image"/>
           <p class="site-author-name" itemprop="name">Eric</p>
         </div>
-        <p class="site-description motion-element" itemprop="description"></p>
+        <p class="site-description motion-element" itemprop="description">一点生活，一点随心，一点故事，一点感悟</p>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
@@ -332,15 +369,15 @@
           </div>
 
           <div class="site-state-item site-state-categories">
-            
-              <span class="site-state-item-count">0</span>
+            <a href="/categories">
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">分類</span>
-              
+              </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">標籤</span>
               </a>
           </div>
@@ -357,6 +394,21 @@
         
 
         <div class="links-of-author motion-element">
+          
+            <p class="site-author-name">Links</p>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.zhihu.com/people/Eric-Coder" target="_blank">知乎</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/Eric-Coder" target="_blank">GitHub</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/2528302093" target="_blank">新浪微博</a>
+              </span>
+            
           
         </div>
 
@@ -375,7 +427,7 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
+  &copy;  2015-12-10 - 回忆的开始与延续 - 
   <span itemprop="copyrightYear">2015</span>
   <span class="with-love">
     <i class="icon-next-heart fa fa-heart"></i>
@@ -454,6 +506,29 @@
 
   
   
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+  </script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for (i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  </script>
+
+  
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
   
